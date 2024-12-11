@@ -1,0 +1,7 @@
+__pycache__
+.vscode
+logs*
+model/backbone.pth
+model/stable-diffusion-v1-5
+model/sd-models-for-AG-FAS
+data/label
