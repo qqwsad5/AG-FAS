@@ -24,17 +24,17 @@ You can download all the FAS data (MSU-MFSD, CASIA-FASD, Idiap Replay-Attack, an
  [0.6215 0.7217]]
 ```
 
-Prepare the checkpoint files for the De-fake Face Generator (DFG) trained on real faces [here](https://drive.google.com/drive/folders/1LENkEmv0YRuMpTUdNPByUrqJZvCGT1Nq?usp=sharing):
-- Download the checkpoint folder of the U-Net in the DFG. (sd-models-for-AG-FAS)
-- Download the pre-trained Arcface model as the identity feature extractor. (backbone.pth)
-- Download the Stable Diffusion config files from Hugging Face or from our Drive. (stable-diffusion-v1-5)
+Prepare the checkpoint files for the De-fake Face Generator (DFG) trained on real faces:
+- Download the [checkpoint folder](https://drive.google.com/file/d/1ogfMLHkyzqpxI-LcMDcwNEEtddr7hpYC/view?usp=drive_link) of the U-Net in the DFG. (sd-models-for-AG-FAS)
+- Download the pre-trained [Arcface model](https://drive.google.com/file/d/1JWW5igbfY3VCz-g9-q2ccS8Dtqh89zjB/view?usp=drive_link) as the identity feature extractor. (backbone.pth)
+- Download the Stable Diffusion config files from Hugging Face. (stable-diffusion-v1-5)
 
 **Optional:**
 If you're interested, you can use your own real facial dataset to train the DFG. You can reference the [fine-tuning code](https://github.com/huggingface/diffusers/blob/main/examples/text_to_image/train_text_to_image_lora.py) provided by Hugging Face and replace the Stable Diffusion model with our DFG.
 
-Prepare the pre-trained models for the Off-real Attention Network (OA-Net) [here](https://drive.google.com/drive/folders/1LENkEmv0YRuMpTUdNPByUrqJZvCGT1Nq?usp=sharing):
-- Download the parameter folder for the backbone ViT model from Hugging Face or from our Drive. (vit-base-patch16-224-in21k)
-- Download the parameters of the Resnet-18 as the anomalous cue encoder. (resnet18-f37072fd.pth)
+Prepare the pre-trained models for the Off-real Attention Network (OA-Net):
+- Download the parameter folder for the backbone ViT model from Hugging Face. (vit-base-patch16-224-in21k)
+- Download the pre-trained Resnet-18 as the anomalous cue encoder. (resnet18-f37072fd.pth)
 
 Once you have prepared the data and the checkpoint, your directory should look like this:
 ```
