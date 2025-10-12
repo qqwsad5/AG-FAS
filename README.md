@@ -25,8 +25,8 @@ You can download all the FAS data (MSU-MFSD, CASIA-FASD, Idiap Replay-Attack, an
 ```
 
 Prepare the checkpoint files for the De-fake Face Generator (DFG) trained on real faces:
-- Download the [checkpoint folder](https://drive.google.com/file/d/1ogfMLHkyzqpxI-LcMDcwNEEtddr7hpYC/view?usp=drive_link) of the U-Net in the DFG. (sd-models-for-AG-FAS)
-- Download the pre-trained [Arcface model](https://drive.google.com/file/d/1JWW5igbfY3VCz-g9-q2ccS8Dtqh89zjB/view?usp=drive_link) as the identity feature extractor. (backbone.pth)
+- Download and unzip the [checkpoint folder](https://pan.baidu.com/s/1tSgL1khSIvjJ52h0-ff-mw?pwd=kirr) of the U-Net in the DFG. (sd-models-for-AG-FAS)
+- Download the pre-trained [Arcface model](https://pan.baidu.com/s/1tSgL1khSIvjJ52h0-ff-mw?pwd=kirr) as the identity feature extractor. (backbone.pth)
 - Download the Stable Diffusion config files from Hugging Face. (stable-diffusion-v1-5)
 
 **Optional:**
