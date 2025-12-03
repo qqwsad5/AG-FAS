@@ -28,6 +28,8 @@ Prepare the checkpoint files for the De-fake Face Generator (DFG) trained on rea
 - Download and unzip the [checkpoint folder](https://pan.baidu.com/s/1tSgL1khSIvjJ52h0-ff-mw?pwd=kirr) of the U-Net in the DFG. (sd-models-for-AG-FAS)
 - Download the pre-trained [Arcface model](https://pan.baidu.com/s/1tSgL1khSIvjJ52h0-ff-mw?pwd=kirr) as the identity feature extractor. (backbone.pth)
 - Download the Stable Diffusion config files from Hugging Face. (stable-diffusion-v1-5)
+  
+As an alternative to Baidu Drive, you can also download the model parameters (sd-models-for-AG-FAS.zip and backbone.pth) from our [Hugging Face repo](https://huggingface.co/Liteling/AGFAS).
 
 **Optional:**
 If you're interested, you can use your own real facial dataset to train the DFG. You can reference the [fine-tuning code](https://github.com/huggingface/diffusers/blob/main/examples/text_to_image/train_text_to_image_lora.py) provided by Hugging Face and replace the Stable Diffusion model with our DFG.
